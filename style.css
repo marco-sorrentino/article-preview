@@ -1,0 +1,89 @@
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: #edf2f7;
+  color: rgb(98, 98, 98);
+  font-size: 0.8rem;
+}
+main {
+  display: flex;
+  width: 70%;
+  margin: 50px auto;
+  border-radius: 20px;
+  background-color: white;
+}
+
+#leftimage {
+  width: 25rem;
+  border-radius: 20px;
+}
+
+.right {
+  padding: 25px;
+}
+
+h1 {
+  font-size: 1.4rem;
+  color: rgb(82, 82, 82);
+}
+
+#logoavtar {
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.avatar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.img-avatar {
+  display: flex;
+  align-items: center;
+}
+
+.img-avatar p {
+  margin-left: 20px;
+}
+
+#icon {
+  width: 1rem;
+}
+
+.arrow {
+  width: 2rem;
+  height: 2rem;
+  background-color: #eef3f6;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.rectangle {
+  position: fixed;
+  width: 210px;
+  height: 53px;
+  z-index: 20;
+  background-color: #48556b;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  margin-left: 330px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.rectangle p {
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+
+.hidden {
+  visibility: hidden;
+}
